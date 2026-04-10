@@ -1,0 +1,412 @@
+.menu-body{
+    background: linear-gradient( #a51d16,rgb(107, 14, 14),rgb(97, 6, 6) ,rgb(39, 1, 1),#a51d16,rgb(53, 7, 7),rgb(107, 14, 14),rgb(0, 0, 0));
+}
+.navbar{
+    background-color: hsl(0, 0%, 100%);
+    width: 100%;
+}
+.top-fixed{
+    background-color: hsla(0, 0%, 100%, 0.671) !important;
+    opacity: 0.9;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 99999999;
+}
+::-webkit-scrollbar{
+    width: 0.3125rem;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#a51d16, rgb(107, 14, 14), rgb(53, 7, 7), rgb(0, 0, 0));
+    height: 0.125rem;
+    border-radius: 0.625rem;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(255, 255, 255, 0);
+}
+i{
+    cursor: pointer;
+    color: #fff;
+    font-size:30px;
+    padding: 5px;
+}
+a{
+color: #000000 !important;
+}
+#loading{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999999;
+}
+.main-menu-content
+.logo-icon{
+    width: 100px;
+}
+.icon-delivery{
+    width: 50px;
+    padding-right: 9px;
+    margin-top: -4px;    
+}
+.nav-icons{
+    cursor: pointer;
+    transition: all 1s;
+}
+.nav-icons:hover{
+  color:#c41208 !important;
+}
+.nav-btns{
+    width: 153px;
+    height: 36px;
+    border: 1px solid rgba(7, 7, 6, 0.1);
+    text-align: center;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    color:rgba(0, 0, 0, 0.55);;
+    margin-left: 20px;
+    padding-bottom: 2px;
+}
+.focus{
+    border: 0.125rem solid red;
+}
+.nav-btn-Delivery:hover h2 {
+    background-color: #9501f8;
+}
+.d-block{
+    height: 300px;
+    font-size: 40px;
+}
+.Login-btn{
+    background-color: #e61409;
+    color: white;
+    padding: 0.625rem 0.9375rem;
+    border-radius: 0.625rem;
+    border: none;
+    transition: all .5s;
+}
+.login-btn:hover {
+    background-color: #300503;
+    box-shadow: 0rem 0.3125rem 0.5rem #aa0d05;
+}
+.Main-menu{
+    padding-top: 43px;
+    width: 93%;
+}
+.carousel-inner2{
+    background-color: #fff;
+    height: 200px;
+}
+.EXPLORE-MENU ,.BESTSELLER{
+    padding-bottom: 50px;
+    color: #fff;
+    font-size: 23px;
+}
+.main-menu-content{
+    border-top-left-radius: 50% ;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: #fff;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 40px 30px  #00000086;
+    float:left;
+    position: relative;
+    transition: all 1s;
+    margin-top: 70px;
+    cursor: pointer;
+}
+.main-menu-content-images{
+    width: 80%;
+    top: -80px;
+    left: 25px !important;
+    position: absolute;
+}
+.main-menu-content-text{
+    padding-top: 150px;
+    font-size: 25px;
+}
+.main-menu-content:hover{
+    transform: translateY(-10%);
+    border: 2px solid #a51d16;
+}
+.line{
+    width: 45px;
+    height: 3px;
+    background-color:#ffc2c2;    
+    margin-left: 102px;
+    color: #fff;
+}
+.circle{
+    width: 20;
+    height: 20;
+    background: linear-gradient(rgba(128, 6, 6)10% ,#000000);
+    margin: auto;
+    border-radius: 50%;
+    position: absolute;
+    right: 9px;
+    bottom: 9px;
+}
+.owl-carousel{
+    width: 90% !important;
+    text-align: center !important;
+}
+.owl-carousel-content{
+    border-radius: 3.125rem 3.125rem 1.25rem 1.25rem;
+    width: 100%;
+    padding: 5px;
+    background-color: #fff;
+    width: 250px;
+    box-shadow: 0 40px 30px  #00000086;
+    float:left;
+    position: relative;
+    transition: all 1s;
+    margin-top: 70px;
+    cursor: pointer;
+}
+@media screen and (max-width:569px){
+    .owl-carousel-content{
+       margin-left: 5rem !important;
+    }
+}
+.owl-carousel-content-images{
+    width: 80%;
+    top: -105px;
+    position: absolute;
+}
+.main-menu-content-text{
+    padding-top:95px;
+    font-size: 25px;
+}
+.owl-price{
+    background-color: #a51d1627;
+}
+.customize{
+    background-color: #e61409;
+    color: white;
+    padding: 0.3125rem 0.9375rem;
+    border-radius: 0.625rem;
+    border: 0.0625rem solid red;
+    transition: all .5s;
+}
+.customize:hover {
+    background-color: white;
+    color: red;
+}
+del{
+    color: rgb(163, 163, 163);
+    font-size: 0.625rem;
+}
+.price {
+    color: black;
+    font-weight: 500;
+}
+.cart-btn{
+    background-color: white;
+    color: red;
+    border: 0.125rem solid red;
+    border-radius: 0.625rem;
+    padding: 0.2rem;
+    margin: 1;
+    margin-top: 0.8rem;
+    width: 90%;
+    font-weight: 600;
+    transition: all .5s;
+}
+.cart-btn:hover {
+    background-color: red;
+    color: white;
+}
+.Bestseller{
+    cursor: pointer;
+    width: 93% !important;
+    margin: auto;
+}
+.Bestseller-content-text{
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 90px;
+}
+.ClassicBucket ,.superDinnerMeal ,.TwisterSandwichOriginal ,.KantokCombo{
+    background-image: url(../images/KanttokCombo_14_En_1406.jpg);
+    background-size: 100% 100%;
+    width: 230px;
+    height: 310px; 
+    border: 1px solid #f01004;
+    border-radius: 4%;
+    box-shadow: 0 40px 20px #00000048;
+    transition: all 1s;
+    cursor: pointer;
+}
+.superDinnerMeal{
+    background-image: url(../images/SUperDinerMeal_Menu14_EGY_En_1406.jpg);
+}
+.ClassicBucket{
+    background-image: url(../images/ClassicBucket9Pcs_14_En_1406.jpg);
+}
+.TwisterSandwichOriginal{
+    background-image: url(../images/TwisterSandwichO_EG14_En_1406.jpg);
+}
+.ClassicBucket:hover ,.superDinnerMeal:hover ,.TwisterSandwichOriginal:hover ,.KantokCombo:hover{
+    transform: scale(1.1);
+}
+.exploreMenu{
+    height: 308px;
+    background-color: rgb(255, 255, 255);
+}
+.exploreMenu ,.ic_badge_kfc_img ,.banner_pickup_img ,.fav_order_img{
+    border-radius: 8px;
+    cursor: pointer;
+}
+.Adding{
+    width: 85%;
+    margin: auto;
+}
+.btn-explore-menu{
+    color: #fff;
+    background-color:#e61409;
+    border: 0;
+    padding: 7px 30px;
+    border-radius: 10px;
+    margin-top: 25px;
+    transition: all 1s;
+}
+.btn-explore-menu:hover{
+    color:#e61409;
+    background-color: #fff;
+    border: 1px solid #e61409;
+}
+.Contactless-delivery{
+    font-size: 12px;
+}
+.footer{
+    margin-top: 50px;
+    background-color: black;
+}
+.ItemsAvailability{
+    color: rgb(119, 119, 119);
+    font-size: 19px;
+}
+.footer-menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    color: #AD202B;
+    font-size: 18px;
+    width: 95%;
+    margin: auto;
+}
+.facebook ,.twitter ,.instagram{
+    transition: all 1s;
+    cursor: pointer;
+}
+.facebook:hover{
+    color: rgba(70, 81, 233, 0.959);
+    transform: scale(1.1);
+}
+.twitter:hover{
+    color: rgba(0, 153, 255, 0.801);
+    transform: scale(1.1);
+}
+.instagram:hover{
+    color: #9501f8;
+    transform: scale(1.1);
+}
+.Contactless{
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 35px;
+}
+.banner_contactless_delivery{
+    height: 208px;
+    width: 313px;
+}
+.icon_delivery_bag ,.icon_delivery_mask ,.icon_sanitized ,.icon_handwash{
+    height: 205px;
+    border-radius:10px ;
+    text-align: center;
+    padding-top: 25px;
+    width: 147px;
+}
+.icon-kntakyMan{
+    width: 175px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.combo-66{
+    position: absolute;
+    top:-120px;
+}
+.icons-FTI{
+    text-align: center;
+    margin-top: 40px;
+}
+p{   
+     color: rgb(119, 119, 119);
+     text-align: center;
+}
+.heartAttack-bg{
+    background-image: url(../images/heartAttack-bg.png);
+    background-size: 100% 100%;
+}
+.cover{
+    background-color: #0000004b;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.content{
+    position: absolute;
+    z-index: 999999;
+}
+.start-laye{
+    background-color: white;
+    color: #ee3429;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.3125rem;
+    font-weight: 500;
+    animation-duration: .5s;
+    transition: all 1s;
+}
+.conn-icon-fa {
+    padding: 0.125rem 0.5rem;
+}
+.conn-icon{
+    border: 0.0625rem solid rgb(197, 195, 195);
+    border-radius: 50%;
+    background-color: transparent;
+    padding: 0.125rem 0.3125rem;
+    margin-bottom: 0.125rem;
+    color: white;
+    transition: all .5s;
+}
+.footer-links ,.store_locations_text ,.privacy_policy_text{
+    text-align:center;
+}  
+@media screen and (max-width:567px) {
+.owl-item{
+    margin-right: 5px !important;
+}
+.footer-links{
+    text-align:end !important;
+}
+.store_locations_text ,.privacy_policy_text{
+   text-align: start; 
+}  
+}
