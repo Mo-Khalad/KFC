@@ -1,5 +1,5 @@
 var navbar = document.getElementById("navbar");
-var loading = document.getElementById("loading");
+var loading = document.querySelectorAll(".loading");
 var navBtns = document.querySelectorAll(".nav-btns");
 window.addEventListener("scroll" , function(){
 var scrolled = window.scrollY
@@ -42,8 +42,11 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
+
+
 document.addEventListener("DOMContentLoaded", function() {
-      loading.style.display='none'
+    for(var i = 0 ; i<loading.length ;i++)
+      loading[i].style.display='none'    
 })
 
 for(var i = 0 ; i<navBtns.length ; i++){
