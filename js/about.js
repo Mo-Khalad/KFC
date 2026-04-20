@@ -1,7 +1,11 @@
 var navbar = document.getElementById("navbar");
-var loading = document.querySelectorAll(".loading");
+var loading= document.querySelectorAll(".loading");
 var navBtns = document.querySelectorAll(".nav-btns");
-window.addEventListener("scroll" , function(){
+
+/* The function responsible for making the navigation bar
+   transparent when scrolling. */
+
+   window.addEventListener("scroll" , function(){
 var scrolled = window.scrollY
  if(scrolled> 0.1 ) {
     navbar.classList.add('top-fixed')
@@ -10,9 +14,12 @@ var scrolled = window.scrollY
    navbar.classList.remove('top-fixed')
   }
 }
-)
+   )
 
-$('.owl-carousel').owlCarousel({
+/* function responsible for the slider implemented using
+   the owl-carousel library. */
+
+   $('.owl-carousel').owlCarousel({
     items:4,
     loop:true,
     merge:true,
@@ -41,14 +48,18 @@ $('.owl-carousel').owlCarousel({
           
         }
     }
-});
+   });
 
+/* The function responsible for hiding the loading after the
+   page content has finished loading. */
 
-document.addEventListener("DOMContentLoaded", function() {
-    for(var i = 0 ; i<loading.length ;i++)
-      loading[i].style.display='none'    
-})
+   document.addEventListener("DOMContentLoaded", function() {
+    for(var i = 0 ; i<= loading.length ; i++){
+      loading[i].style.display='none'        
+    }
+   })
 
+/* The function responsible for adding and deleting class focus. */   
 for(var i = 0 ; i<navBtns.length ; i++){
     navBtns[i].addEventListener('click' , function(){
         for(var j=0 ; j<navBtns.length ; j++){
