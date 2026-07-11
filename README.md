@@ -7,3 +7,11 @@
 </p>
 <h2>Tools</h2>
 <h5>html , css , bootstrap , js</h5>
+
+<h3>Features</h3>
+<ul>
+  <li>Elegant and attractive design</li>
+  <li>Fits all screen sizes</li>
+  <li>Features a navigation bar built using Bootstrap</li>
+  <li>Features a slider built using the Owl Carousel library</li>
+</ul>
