@@ -6,7 +6,7 @@
   and a "Contactless Delivery" section, all anchored by a footer.
 </p>
 <h2>Tools</h2>
-<h5>Html , Css , Bootstrap , Js</h5>
+<p>Html , Css , Bootstrap , Js</p>
 
 <h3>Features</h3>
 <ul>
